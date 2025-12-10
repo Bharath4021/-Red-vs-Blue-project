@@ -4,7 +4,7 @@
 
 As part of our master’s Research Project, we designed and built a complete Red vs Bluse project using Proxmox Virtual Environment (VE). Our objective was to simulate real-world attack and defense operations inside a fully isolated virtual network. The project required us to build a isolated Enterprise Network network, configure routers and firewalls, deploy a Wazuh , and carry out both offensive (Red Team) and defensive (Blue Team) tasks. Within the team, I focused on building and configuring the entire lab environment, including Proxmox deployment, VM setup, Wazuh SIEM configuration, and full network validation. As part of the Red Team, I performed reconnaissance, vulnerability scanning, and exploitation attempts, identifying misconfigurations such as anonymous FTP access and weak credential protection.
 
---
+---
 ## Proxmox Lab Setup: Creating an Isolated Enterprise Network
 We built our cybersecurity lab on Proxmox VE to provide isolation, virtualization, and network segmentation. To emulate a real enterprise network, we configured two virtual bridges:
 
